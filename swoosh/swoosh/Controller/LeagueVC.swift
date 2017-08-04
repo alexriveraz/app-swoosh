@@ -29,7 +29,7 @@ class LeagueVC: UIViewController {
     @IBOutlet weak var nextBtn: BorderButton!
     
     @IBAction func onCoedTapped(_ sender: Any) {
-        selectLeague(leagueType: "coed")
+        selectLeague(leagueType: "children")
     }
     
     @IBAction func onWomensTapped(_ sender: Any) {
@@ -47,6 +47,18 @@ class LeagueVC: UIViewController {
     func selectLeague(leagueType: String) {
         player.desiredLeague = leagueType
         nextBtn.isEnabled = true
+    }
+    
+    
+    //pasando el player con la info de este storyboard al siguiente
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC {
+            skillVC.player = player
+        }
+    }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
+        
     }
     
     /*

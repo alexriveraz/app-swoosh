@@ -10,10 +10,16 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player!
+    
+    @IBOutlet weak var selectedLeague: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        selectedLeague.text = player.desiredLeague.capitalized
+        selectedLeague.text?.append(" League")
     }
 
     override func didReceiveMemoryWarning() {
