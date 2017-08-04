@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.58695652173915"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="aJv-FR-iU0">
             <objects>
-                <viewController id="8Lf-qG-OC2" sceneMemberID="viewController">
+                <viewController id="8Lf-qG-OC2" customClass="LeagueVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="alr-U2-m6K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,10 +202,10 @@
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="138.58695652173915"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="seV-Oj-swO">
             <objects>
-                <viewController id="ZXl-df-g5K" sceneMemberID="viewController">
+                <viewController id="ZXl-df-g5K" customClass="SkillVC" customModule="swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oMd-WO-bKB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
